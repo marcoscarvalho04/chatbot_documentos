@@ -29,7 +29,7 @@ load_dotenv()
 st.set_page_config(page_title='Converse com documentos ')
 st.title('Converse com documentos ')
 
-model_class = 'hf_hub' #hf_hub, openai, ollama
+model_class = 'openai' #hf_hub, openai, ollama
 
 
 #st.button('Botão')
